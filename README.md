@@ -40,6 +40,7 @@ Copy `/dist/` folder and deploy on PHP sever. You can also test at localhost wit
 # Templates & Blocks Development
 Add more blocks in `src/blocks.js` &
 Add more templates in `src/templates.js`
+![gram.jpg]({{site.baseurl}}/gram.jpg)
 
 
 
