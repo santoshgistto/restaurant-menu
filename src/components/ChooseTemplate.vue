@@ -4,9 +4,6 @@
         <h2 class="step-title">Please choose a template</h2>
           <div class="choose-wrap">
                 <a-row :gutter="30">
-                    <a-col :md="8" :sm="12" :xs="24"><h4 class="text-center">Blank Template</h4>
-                        <div @click="getTemplate('blank-template')" class="empty"></div>
-                    </a-col>
                      <a-col :key="template.id" :md="8" :sm="12" :xs="24" v-for="template in templates">
                          <h4 class="text-center">{{template.name}}</h4>
                         <img @click="getTemplate(template.id)" class="template-img" :src="template.img" :alt="template.name">

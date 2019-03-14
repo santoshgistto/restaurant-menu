@@ -1,10 +1,21 @@
 const templates = [
     {
+        id:"blank-template",
+        name:'Blank template',
+        img:'https://via.placeholder.com/400/ffffff/ffffff/?text=.',
+        gjsCSS:"",
+        gjsHTML:"",
+        gjsJS:'',
+        gjsAssets:'',
+        gjsComponents:'',
+        gjsStyles:''
+    },
+    {
         id:"template-one",
         name:'Template one',
-        img:'https://picsum.photos/201/200',
+        img:'https://picsum.photos/400/400',
         gjsCSS:`h1{color:green}`,
-        gjsHTML:`<html><head><title>Template One</title></head><body><h1>This is template one!</h1></body></html>`,
+        gjsHTML:`<h1>This is template one!</h1>`,
         gjsJS:'',
         gjsAssets:'',
         gjsComponents:'',
@@ -13,9 +24,9 @@ const templates = [
     {
         id:"template-two",
         name:'Template two',
-        img:'https://picsum.photos/201/201',
+        img:'https://picsum.photos/400/401',
         gjsCSS:`h1{color:green}`,
-        gjsHTML:`<html><head><title>Template two</title></head><body><h1>This is template two!</h1></body></html>`,
+        gjsHTML:`<h1>This is template two!</h1>`,
         gjsJS:'',
         gjsAssets:'',
         gjsComponents:'',

@@ -19,7 +19,6 @@
 </template>
 
 <script>
-import {store} from './../store';
 import Projects from './partials/projectList'
 import Sidebar from './partials/sidebar'
 import Footer from './partials/footer'
